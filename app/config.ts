@@ -1,1 +1,1 @@
-export const NEXT_PUBLIC_URL = 'vercel.com';
+export const NEXT_PUBLIC_URL = 'framesmeditate.xyz';
