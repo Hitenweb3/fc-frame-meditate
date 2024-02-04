@@ -16,7 +16,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   
   return new NextResponse(
     getFrameHtmlResponse({
-      image: `https://media.giphy.com/media/dDXZ3qU5nRBIe82Uit/giphy.gif`,
+      image: `${NEXT_PUBLIC_URL}/image2.jpeg`,
       post_url: `${NEXT_PUBLIC_URL}/api/frame`,
     }),
   );

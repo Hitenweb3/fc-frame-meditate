@@ -8,7 +8,7 @@ const frameMetadata = getFrameMetadata({
       label: 'Begin to Meditate',
     }
   ],
-  image: `https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjhvbmYycmw5a3F1cDJ3Mzh5c2cwdmttNjVxNXd0c2MyZWE4bXZ1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5yCQWXgTVzHWOQCiyI/giphy.gif`,
+  image: `${NEXT_PUBLIC_URL}/image1.jpeg`,
   post_url: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'framesmeditate.xyz',
     description: 'LFG',
-    images: [`https://media.giphy.com/media/dDXZ3qU5nRBIe82Uit/giphy.gif`],
+    images: [`${NEXT_PUBLIC_URL}/image1.jpeg`],
   },
   other: {
     ...frameMetadata,
