@@ -13,25 +13,10 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     accountAddress = message.interactor.verified_accounts[0];
   }
 
-  if (message?.input) {
-    text = message.input;
-  }
-
-  if (message?.button === 2) {
-    return NextResponse.redirect(
-      'https://www.google.com/search?q=cute+dog+pictures&tbm=isch&source=lnms',
-      { status: 302 },
-    );
-  }
-
+  
   return new NextResponse(
     getFrameHtmlResponse({
-      buttons: [
-        {
-          label: `🌲 Text: ${text}`,
-        },
-      ],
-      image: `${NEXT_PUBLIC_URL}/park-2.png`,
+      image: `https://media.giphy.com/media/dDXZ3qU5nRBIe82Uit/giphy.gif`,
       post_url: `${NEXT_PUBLIC_URL}/api/frame`,
     }),
   );

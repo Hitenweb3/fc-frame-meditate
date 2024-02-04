@@ -5,27 +5,20 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Tell me the story',
-    },
-    {
-      label: 'Redirect to cute dog pictures',
-      action: 'post_redirect',
-    },
+      label: 'Begin to Meditate',
+    }
   ],
-  image: `${NEXT_PUBLIC_URL}/park-1.png`,
-  input: {
-    text: 'Tell me a boat story',
-  },
+  image: `https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjhvbmYycmw5a3F1cDJ3Mzh5c2cwdmttNjVxNXd0c2MyZWE4bXZ1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5yCQWXgTVzHWOQCiyI/giphy.gif`,
   post_url: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
-  description: 'LFG',
+  title: 'framesmeditate.xyz',
+  description: 'Breathe',
   openGraph: {
-    title: 'zizzamia.xyz',
+    title: 'framesmeditate.xyz',
     description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/park-1.png`],
+    images: [`https://media.giphy.com/media/dDXZ3qU5nRBIe82Uit/giphy.gif`],
   },
   other: {
     ...frameMetadata,
@@ -35,7 +28,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>framesmeditate.xyz</h1>
     </>
   );
 }
