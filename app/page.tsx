@@ -5,10 +5,10 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Begin to Meditate',
+      label: 'Lets to Meditate 🧘',
     }
   ],
-  image: `https://cdn.dribbble.com/userupload/12022776/file/original-624afba4129d4449eb1597e1158bb1fc.mp4`,
+  image: `https://cdn.dribbble.com/users/583436/screenshots/6934300/worm_dribbble.gif`,
   post_url: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'framesmeditate.xyz',
     description: 'LFG',
-    images: [`https://cdn.dribbble.com/userupload/12022776/file/original-624afba4129d4449eb1597e1158bb1fc.mp4`],
+    images: [`https://cdn.dribbble.com/users/583436/screenshots/6934300/worm_dribbble.gif`],
   },
   other: {
     ...frameMetadata,
