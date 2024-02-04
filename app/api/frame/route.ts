@@ -16,6 +16,11 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   
   return new NextResponse(
     getFrameHtmlResponse({
+      buttons: [
+        {
+          label: `Breathe In ⬇️ Breathe Out ⬆️`,
+        },
+      ],
       image: `https://cdn.dribbble.com/users/583436/screenshots/1698964/media/c6693201f9df28dd386aa2f86fc81775.gif`,
       post_url: `${NEXT_PUBLIC_URL}/api/frame`,
     }),
