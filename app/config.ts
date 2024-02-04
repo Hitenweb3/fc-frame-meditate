@@ -1,1 +1,1 @@
-export const NEXT_PUBLIC_URL = 'https://framesmeditate.xyz';
+export const NEXT_PUBLIC_URL = 'https://zizzamia.xyz';
