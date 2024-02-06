@@ -5,7 +5,7 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Lets to Meditate 🧘',
+      label: 'Lets Meditate 🧘',
     }
   ],
   image: `https://cdn.dribbble.com/users/583436/screenshots/3564321/media/7895efbf728c25deaba884704283eba9.gif`,
